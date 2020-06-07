@@ -14,13 +14,13 @@
 </head>
 
 <body>
-    <div class="row">
+    <div id='heading' class="row">
         <div class="col-sm-12">
             <h5 class='text-center'>Paramshree Apt Maintenance History</h5>
             <h1 class='text-center'> Total: <i class="fa fa-inr" aria-hidden="true"></i> NA</h1>
         </div>
     </div>
-    <div class="card cardOuter">
+    <div id='MonthlySpentDetails' class="card cardOuter">
         <div class="card-body">
             <div class="row ">
 
@@ -115,15 +115,19 @@
             </div>
         </div>
     </div>
-    <div class="text-center mt-5">
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='shopBtn' data-target="#shop">Shop</button>
+    <div id='floorwisedetailsTable' class="text-center mt-5">
+        <div class="container">
+            <h6 class='text-center'>Floor Wise Details</h6>
+        </div>
+        <div class="container-fluid">
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='shopBtn' data-target="#shop">Shop</button>
 
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='firstFloorBtn' data-target="#firstFloor">1st</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='secondFloorBtn' data-target="#secondFloor">2nd</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='thirdFloorBtn' data-target="#thirdFloor">3rd</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fourthFloorBtn' data-target="#fourthFloor">4th</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fifthFloorBtn' data-target="#fifthFloor">5th</button>
-
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='firstFloorBtn' data-target="#firstFloor">1st</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='secondFloorBtn' data-target="#secondFloor">2nd</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='thirdFloorBtn' data-target="#thirdFloor">3rd</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fourthFloorBtn' data-target="#fourthFloor">4th</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fifthFloorBtn' data-target="#fifthFloor">5th</button>
+        </div>
     </div>
 
 
@@ -611,7 +615,7 @@
 
 
 
-    <div class="card card cardOuter mt-5">
+    <div id='exclusiveSpending' class="card card cardOuter mt-5">
         <div class="card-body">
 
             <div class="row">
