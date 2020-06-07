@@ -1,3 +1,7 @@
+ body {
+     overflow-x: hidden!important
+ }
+ 
  .paid {
      background: #76fd95
  }
@@ -31,4 +35,8 @@
  .exclusiveInfo {
      color: red!important;
      font-weight: 900
+ }
+ 
+ #announcement p {
+     line-height: 1em;
  }
