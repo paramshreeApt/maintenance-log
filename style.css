@@ -24,3 +24,11 @@
  .cardOuter {
      background: #e2e2e2!important;
  }
+ /* .showOnClickMore {
+     display: none!important
+ } */
+ 
+ .exclusiveInfo {
+     color: red!important;
+     font-weight: 900
+ }

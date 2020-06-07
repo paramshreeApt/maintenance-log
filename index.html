@@ -6,21 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
     <div class="row">
         <div class="col-sm-12">
-            <h1 class='text-center'> Total : RS 21,000</h1>
+            <h1 class='text-center'> Total In Hand: RS 21,000</h1>
         </div>
     </div>
     <div class="card cardOuter">
         <div class="card-body">
-            <div class="row">
+            <div class="row ">
 
                 <div class="col-md-3">
                     <div class="card">
@@ -28,31 +29,36 @@
                             <h5 class='py-3 text-center monthHeading mb-3'>May Spendings</h5>
                             <div class="d-flex justify-content-between">
                                 <p>Overall Total: </p>
-                                <p>10,500</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 10,500</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Watchman Salary: </p>
-                                <p>10,000</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 10,000</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Electricity Bill: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>water Bill: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Floor Repairings: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Electrical Installation: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Individual Home Spendings.: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+
+                                <a class='exclusiveInfo' href='javascript:void(0)'> <i class="fa fa-ban" aria-hidden="true"></i> No Exclusive Spent..</a>
+
                             </div>
                         </div>
                     </div>
@@ -63,35 +69,44 @@
                             <h5 class='py-3 text-center monthHeading mb-3'>June Spendings</h5>
                             <div class="d-flex justify-content-between">
                                 <p>Overall Total: </p>
-                                <p>10,500</p>
+
+                                <p> <i class="fa fa-inr" aria-hidden="true"></i> 10,500</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Watchman Salary: </p>
-                                <p>10,000</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 10,000</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Electricity Bill: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>water Bill: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Floor Repairings: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Electrical Installation: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
                                 <p>Individual Home Spendings.: </p>
-                                <p>-</p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> -</p>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <p>Panhaali in Terrace: </p>
-                                <p>150rs/Each Flat</p>
+
+                                <a href='javascript:void(0)' class='exclusiveInfo' data-toggle="collapse" data-target="#showOnClickMoreJune"><i class="fa fa-check-circle-o" aria-hidden="true"></i> Spent Exclusive..</a>
+
+                            </div>
+
+                            <div class="collapse" id='showOnClickMoreJune' class="">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <p>Panhaali in Terrace: </p>
+                                    <p>150rs/Each Flat</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -100,12 +115,72 @@
         </div>
     </div>
     <div class="text-center mt-5">
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='firstFloorBtn' data-target="#firstFloor">101-106</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='secondFloorBtn' data-target="#secondFloor">201-206</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='thirdFloorBtn' data-target="#thirdFloor">301-306</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fourthFloorBtn' data-target="#fourthFloor">401-406</button>
-        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fifthFloorBtn' data-target="#fifthFloor">501-506</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='shopBtn' data-target="#shop">Shop</button>
+
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='firstFloorBtn' data-target="#firstFloor">1st</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='secondFloorBtn' data-target="#secondFloor">2nd</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='thirdFloorBtn' data-target="#thirdFloor">3rd</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fourthFloorBtn' data-target="#fourthFloor">4th</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse container" id='fifthFloorBtn' data-target="#fifthFloor">5th</button>
+
     </div>
+
+
+    <div id="shop" class="collapse container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="width:50px">Flat No.</th>
+                    <th style="width:50px">May</th>
+                    <th style="width:50px">June</th>
+                    <th style="width:50px">July</th>
+                    <th style="width:50px">Aug</th>
+                    <th style="width:50px">Sept</th>
+                    <th style="width:50px">Oct</th>
+                    <th style="width:50px">Nov</th>
+                    <th style="width:50px">Dec</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class='first'>
+                    <td>Shop 1</td>
+                    <td class='closed'>closed</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr class='first'>
+                    <td>Shop 2</td>
+                    <td class='closed'>closed</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr class='first'>
+                    <td>Shop 3</td>
+                    <td class='paid'>Paid</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
     <div id="firstFloor" class="collapse container">
         <table class="table">
             <thead>
@@ -548,9 +623,35 @@
                                 <p>Terrace</p>
 
                             </div>
+
                             <div class="d-flex justify-content-between">
-                                <p>Money Spent: </p>
-                                <p>150 RS/Each Flat</p>
+                                <p>Money Gathered: </p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 10,000 RS</p>
+
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Actual Spent: </p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 9,000 RS</p>
+
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Remaining: </p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 1,000 RS</p>
+
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Money Collected: </p>
+                                <p><i class="fa fa-inr" aria-hidden="true"></i> 150/Each Flat</p>
+
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Closed Flats (June): </p>
+
+
+                            </div>
+                            <div class="d-flex justify-content-between">
+
+                                <p> 103, 202, 203, 402, 406, 501, 504</p>
 
                             </div>
                             <img src="img/bulb.jpg" class='img-fluid'>
@@ -562,6 +663,9 @@
 
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src='script.js'></script>
 </body>
 
