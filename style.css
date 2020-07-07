@@ -3,6 +3,12 @@
       font-family: 'Poppins', sans-serif;
 
  }
+
+.small, small {
+    font-size: 37%;
+    font-weight: 400;
+    letter-spacing: 0.0em;
+}
  
  .paid {
      background: #76fd95
