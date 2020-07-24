@@ -46,6 +46,7 @@
  
  #announcement p {
      line-height: 1em;
+  white-space: nowrap;
  }
  
  .wid9000 {
