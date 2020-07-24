@@ -185,3 +185,5 @@ body {
     z-index: 1;
     transition: 1s;
 }
+
+body{    overflow-x: hidden!important;}
