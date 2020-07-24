@@ -172,3 +172,16 @@ body {
         transform: translateX(3px)
     }
 }
+
+.preloader {
+    background-image: url('img/paramapt.webp');
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+    z-index: 1;
+    transition: 1s;
+}
