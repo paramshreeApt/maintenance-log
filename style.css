@@ -124,10 +124,38 @@
  }
  
  #accordion .card-header {
-     background: #edebee!important; 
-     text-align: center!important; 
+     background: #edebee;
+     text-align: center;
  }
  
  #accordion .card-header a {
      color: black!important;
+ }
+ 
+ .inandOutAnimate {
+     animation: inandout 2s infinite
+ }
+ 
+ @-webkit-keyframes inandout {
+     0% {
+         transform: translateX(3px)
+     }
+     50% {
+         transform: translateX(-5px)
+     }
+     100% {
+         transform: translateX(3px)
+     }
+ }
+ 
+ @keyframes inandout {
+     0% {
+         transform: translateX(3px)
+     }
+     50% {
+         transform: translateX(-5px)
+     }
+     100% {
+         transform: translateX(3px)
+     }
  }
