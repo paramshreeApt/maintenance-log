@@ -1,4 +1,4 @@
- body {
+body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -171,8 +171,4 @@ body {
     100% {
         transform: translateX(3px)
     }
-}
-
-html {
-    overflow-x: hidden!important;
 }
