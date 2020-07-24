@@ -124,8 +124,8 @@
  }
  
  #accordion .card-header {
-     background: #edebee;
-     text-align: center;
+     background: #edebee!important; 
+     text-align: center!important; 
  }
  
  #accordion .card-header a {
