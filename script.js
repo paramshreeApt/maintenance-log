@@ -95,8 +95,7 @@ $(document).ready(function() {
 
 
     setTimeout(function() {
-        document.getElementsByClassName('preloader')[0].style.transform = 'translateX(100%)';
-
+        document.getElementsByClassName('preloader')[0].style.transform = 'translateX(200%)'; 
     }, 2000)
 
 });
