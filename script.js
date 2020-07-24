@@ -94,6 +94,9 @@ $(document).ready(function() {
 
 
 
+    setTimeout(function() {
+        document.getElementsByClassName('preloader')[0].style.transform = 'translateX(100%)';
 
+    }, 2000)
 
 });
