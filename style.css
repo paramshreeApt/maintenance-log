@@ -122,3 +122,12 @@
      border: 1px solid #ccc;
      border-top: none;
  }
+ 
+ #accordion .card-header {
+     background: #edebee;
+     text-align: center;
+ }
+ 
+ #accordion .card-header a {
+     color: black!important;
+ }
