@@ -142,7 +142,7 @@
          transform: translateX(3px)
      }
      50% {
-         transform: translateX(-5px)
+         transform: translateX(-3px)
      }
      100% {
          transform: translateX(3px)
@@ -154,7 +154,7 @@
          transform: translateX(3px)
      }
      50% {
-         transform: translateX(-5px)
+         transform: translateX(-3px)
      }
      100% {
          transform: translateX(3px)
