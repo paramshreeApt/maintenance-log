@@ -114,7 +114,7 @@ body {
 }
 
 .table tr:hover {
-    background: black!important;
+    background: #903450!important;
     color: white!important;
     cursor: pointer
 }
@@ -131,8 +131,15 @@ body {
 /* Create an active/current tablink class */
 
 .tab button.active {
-    background-color: #ccc;
+    background-color: #ffbb21;
+    color: black;
+    text-shadow: none;
 }
+
+.tab button.active .fa{
+    color: #903450;
+}
+
 
 
 /* Style the tab content */
@@ -142,8 +149,8 @@ body {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    height:300px!important;
-    overflow-y: scroll;
+    height: 300px!important;
+    overflow: scroll;
 }
 
 #accordion .card-header {
