@@ -1,4 +1,4 @@
-body {
+ body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -243,5 +243,5 @@ body {
 }
 
 body {
-    background: #ffbb21;
+    background: #ffbb21!important;
 }
