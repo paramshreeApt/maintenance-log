@@ -98,4 +98,7 @@ $(document).ready(function() {
         document.getElementsByClassName('preloader')[0].style.transform = 'translateX(200%)'; 
     }, 2000)
 
+    
+    document.getElementById('Electricity').style.display = "block";
+    
 });
