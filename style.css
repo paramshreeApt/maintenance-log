@@ -1,4 +1,4 @@
- body {
+body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -92,6 +92,8 @@ body {
     transition: 0.3s;
     font-size: 17px;
     width: 33%;
+    color:white;
+    text-shadow:1px 1px 1px black
 }
 
 
@@ -205,11 +207,10 @@ body {
     background: #ffbb21;
 }
 
-#announcement .card-body h4{
+#announcement .card-body h4 {
     color: #903450;
     text-shadow: 1px 1px 1px black;
 }
-
 
 #announcement p {
     line-height: 1em;
@@ -218,6 +219,6 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
-.card-body .fa{
-    color: #903450; 
+.card-body .fa {
+    color: #903450;
 }
