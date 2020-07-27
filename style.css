@@ -92,10 +92,13 @@ body {
     transition: 0.3s;
     font-size: 17px;
     width: 33%;
-    color:white;
-    text-shadow:1px 1px 1px black
+    color: white;
+    text-shadow: 1px 1px 1px black
 }
 
+.tab button .fa{
+    color: #ffbb21;
+}
 
 /* Change background color of buttons on hover */
 
