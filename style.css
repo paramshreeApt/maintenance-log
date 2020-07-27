@@ -1,4 +1,4 @@
-body {
+ body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -75,15 +75,15 @@ body {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #ffbb21;
+    background-color: #ffbb21;
 }
 
 
 /* Style the buttons inside the tab */
 
 .tab button {
-    background-color: inherit;
+    background-color: #903450;
     float: left;
     border: none;
     outline: none;
@@ -91,6 +91,7 @@ body {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    width: 33%;
 }
 
 
@@ -186,4 +187,37 @@ body {
     transition: 1s;
 }
 
-body{    overflow-x: hidden!important;}
+body {
+    overflow-x: hidden!important;
+}
+
+#announcement .card-header {
+    color: white;
+    background: #903450;
+    text-shadow: 1px 1px 1px black;
+}
+
+#announcement .card-header i {
+    color: #ffbb21;
+}
+
+#announcement .card-body {
+    background: #ffbb21;
+}
+
+#announcement .card-body h4{
+    color: #903450;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#announcement p {
+    line-height: 1em;
+    white-space: nowrap;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card-body .fa{
+    color: #903450; 
+}
