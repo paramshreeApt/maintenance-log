@@ -136,10 +136,9 @@ body {
     text-shadow: none;
 }
 
-.tab button.active .fa{
+.tab button.active .fa {
     color: #903450;
 }
-
 
 
 /* Style the tab content */
@@ -249,6 +248,9 @@ body {
 
 #accordion .card-header {
     color: white;
+}
+.card-link{
+    color: white!important;
 }
 
 body {
