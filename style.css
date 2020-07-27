@@ -1,4 +1,4 @@
-body {
+ body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -236,4 +236,16 @@ body {
 #accordion .card-header .fa{
  
     color: white;
+}
+
+
+#accordion .card-header  {
+ 
+    color: white;
+}
+
+
+
+body{
+    background: #ffbb21;
 }
