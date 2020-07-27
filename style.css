@@ -139,9 +139,9 @@ body {
 }
 
 .table tr:hover {
-    background: #903450!important;
-    color: white!important;
-    cursor: pointer
+       background: #ffbb21!important;
+    color: #131313!important;
+    cursor: pointer;
 }
 
 .table th {
