@@ -252,6 +252,8 @@ body {
     white-space: nowrap;
     color: black;
     text-shadow: 1px 1px 1px black;
+  overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-body .fa {
