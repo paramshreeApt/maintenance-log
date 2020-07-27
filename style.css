@@ -1,4 +1,4 @@
- body {
+body {
     overflow-x: hidden!important font-family: 'Poppins', sans-serif;
 }
 
@@ -93,7 +93,8 @@ body {
     font-size: 17px;
     width: 33%;
     color: white;
-    text-shadow: 1px 1px 1px black
+    text-shadow: 1px 1px 1px black;
+    white-space:nowrap
 }
 
 .tab button .fa {
@@ -233,19 +234,14 @@ body {
     color: white;
 }
 
-#accordion .card-header .fa{
- 
+#accordion .card-header .fa {
     color: white;
 }
 
-
-#accordion .card-header  {
- 
+#accordion .card-header {
     color: white;
 }
 
-
-
-body{
+body {
     background: #ffbb21;
 }
