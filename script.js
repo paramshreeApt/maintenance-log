@@ -1,3 +1,5 @@
+alert('for Better view use Computer or use mobile in Landscape')
+
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
