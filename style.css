@@ -86,10 +86,10 @@ small {
 }
 
 .wid9000 {
+    cursor: grab;
     width: 9000px;
-    background: url(img/paramapt.webp)
+    background: url(img/paramapt.webp);
 }
-
 .wid9000 .col-md-3 {
     max-width: 320px;
 }
