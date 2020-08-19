@@ -1,4 +1,4 @@
- 
+  
 
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -101,6 +101,6 @@ $(document).ready(function() {
     }, 2000)
 
     
-    document.getElementById('Electricity').style.display = "block";
+    document.getElementById('Incharge').style.display = "block";
     
 });
