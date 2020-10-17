@@ -189,6 +189,7 @@ body {
     border-top: none;
     height: 300px!important;
     overflow: scroll;
+    overflow-x:hidden;
 }
 
 #accordion .card-header {
