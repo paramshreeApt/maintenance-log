@@ -256,6 +256,10 @@ body {
     color: #ffbb21;
 }
 
+.wid9000 .img-fluid{
+height: 198px!important;
+}
+
 #announcement .card-body {
     background: #ffbb2159;
 }
