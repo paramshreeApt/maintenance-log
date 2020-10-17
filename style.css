@@ -1,10 +1,15 @@
- .btn-primary {
+.meetingdataholder{
+max-height:600px;
+ overflow-y:scroll;
+}
+
+
+.btn-primary {
     color: #000!important;
     background-color: #ffbb21!important;
     border-color: #903450!important;
     text-shadow: 1px 1px 1px black!important;
 }
-
 
 ::-webkit-scrollbar {
   width: 10px;
