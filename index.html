@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,10 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <style>
         .logindiv {
-            height: 100px;
             padding: 1em;
             background: #903450!important;
-            line-height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -30,6 +28,26 @@
             align-items: center;
             justify-content: center;
             width: 100%;
+        }
+        
+        @media screen and (max-width:600px) {
+            .logindiv {
+                /* height: 100px; */
+                padding: 1em;
+                background: #903450!important;
+                line-height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .logindiv .form-group {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                line-height: 1.5;
+            }
         }
     </style>
 </head>
