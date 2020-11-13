@@ -361,3 +361,9 @@ body {
     overflow: hidden;
     margin-bottom: 7px!important;
 } */
+
+#google_translate_element {
+    background: #ffbb21;
+    text-align: center;
+    padding: 3px 0px;
+}
