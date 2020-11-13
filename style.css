@@ -367,3 +367,14 @@ body {
     text-align: center;
     padding: 3px 0px;
 }
+
+
+#google_translate_element {
+    background: #ffbb21;
+    text-align: center;
+    padding: 3px 0px;
+    border-radius: 16px;
+    width: 50%;
+    margin: 1px auto;
+    box-shadow: 1px 1px 8px black;
+}
