@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maintenance Logs - Paramshree APT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="hSXx8JDJvv_-uUtDbNOI3l73DnCYGvzqjidm2d17ruQ" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id='map'>
+        
+       
+
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="d-flex w-100 align-items-center">
+                    <div class='w-50 text-center'>
+                        अपनी भाषा चुनिए
+                    </div>
+                    <div class='w-50' id="google_translate_element"></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12 pb-3">
+                        <h4 class="mt-3"><i class="fa fa-money" aria-hidden="true"></i> Spendings</h4> 
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-column text-center">
+                            <a href="monthly.html" class='text-dark'>
+                            <i class="fa fa-money mapIcon" aria-hidden="true"></i>
+                            
+                            <h5 class='text-nowrap'>  Monthly  </h5>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex flex-column text-center">
+                            <a href="fixed.html" class='text-dark'>
+                            <i class="fa fa-money mapIcon" aria-hidden="true"></i>
+                          <h5 class='text-nowrap'>  Fixed </h5>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+<!-- ########################## -->
+<div class="row mb-3">
+    <div class="col-md-12 pb-3">
+        <h4 class="mt-3"><i class="fa fa-table" aria-hidden="true"></i> Collection</h4> 
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <a href="floorwise.html" class='text-dark'> 
+            <i class="fa fa-table mapIcon" aria-hidden="true"></i>
+            
+            <h5 class='text-nowrap'>  Floor wise  </h5>
+        </a>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <a href="datewise.html" class='text-dark'> 
+            <i class="fa fa-table mapIcon" aria-hidden="true"></i>
+          <h5 class='text-nowrap'>  Date Wise </h5>
+        </a>
+        </div>
+    </div>
+</div>
+
+<!-- ########################## -->
+<div class="row mb-3">
+    <div class="col-md-12 pb-3">
+        <h4 class="mt-3"><i class="fa fa-users" aria-hidden="true"></i> Team Work</h4> 
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <a href="individual-contribution.html" class='text-dark'> 
+            <i class="fa fa-users mapIcon" aria-hidden="true"></i> 
+            <h5 class='text-nowrap'>  Individual  </h5>
+        </a>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <i class="fa fa-users mapIcon" aria-hidden="true"></i> 
+          <h5 class='text-nowrap'>  Tank Cleaining Routine </h5>
+        </div>
+    </div>
+</div>
+
+<!-- ########################## -->
+<div class="row mb-3">
+    <div class="col-md-12 pb-3">
+        <h4 class="mt-3"><i class="fa fa-times" aria-hidden="true"></i> Others</h4> 
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <i class="fa fa-times mapIcon" aria-hidden="true"></i>
+            
+            <h5 class='text-nowrap'>  Misbehaves   </h5>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="d-flex flex-column text-center">
+            <a href="breakdown.html" class='text-dark'>
+            <i class="fa fa-times mapIcon" aria-hidden="true"></i>
+          <h5 class='text-nowrap'>  Break Down </h5>
+        </a>
+        </div>
+    </div>
+</div>
+
+
+
+            </div>
+        </div>
+     
+    
+    
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='script.js'></script>
+    <script>
+        $('#showAfterSuccess').hide()
+
+        function checkCredentials(val) {
+            if (val == '123') {
+                $('#showAfterSuccess').show()
+                $('.logindiv').hide();
+            }
+        }
+    </script>
+      <script type="text/javascript" src="translate.txt"></script>
+      <script type="text/javascript">
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement({
+                      pageLanguage: 'it',
+                      includedLanguages: 'hi,mr',
+                      gaTrack: true,
+                      gaId: 'UA-XXXXXXXX-X'
+                  },
+                  'google_translate_element'
+              );
+          }
+      </script>
+</body>
+</html>

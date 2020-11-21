@@ -1,0 +1,314 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <title>Maintenance Logs - Paramshree APT</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="google-site-verification" content="hSXx8JDJvv_-uUtDbNOI3l73DnCYGvzqjidm2d17ruQ" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+     <!-- 
+  <script>
+   
+   (function(){var gtConstEvalStartTime = new Date();/*
+ 
+  Copyright The Closure Library Authors.
+  SPDX-License-Identifier: Apache-2.0
+ */
+ var h=this||self,l=/^[\w+/_-]+[=]{0,2}$/,m=null;function n(a){return(a=a.querySelector&&a.querySelector("script[nonce]"))&&(a=a.nonce||a.getAttribute("nonce"))&&l.test(a)?a:""}function p(a,b){function c(){}c.prototype=b.prototype;a.c=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.b=function(g,f,k){for(var e=Array(arguments.length-2),d=2;d<arguments.length;d++)e[d-2]=arguments[d];return b.prototype[f].apply(g,e)}}function q(a){return a};function r(a){if(Error.captureStackTrace)Error.captureStackTrace(this,r);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))}p(r,Error);r.prototype.name="CustomError";function u(a,b){a=a.split("%s");for(var c="",g=a.length-1,f=0;f<g;f++)c+=a[f]+(f<b.length?b[f]:"%s");r.call(this,c+a[g])}p(u,r);u.prototype.name="AssertionError";function v(a,b){throw new u("Failure"+(a?": "+a:""),Array.prototype.slice.call(arguments,1));};var w;function x(a,b){this.a=b===y?a:""}x.prototype.toString=function(){return"TrustedResourceUrl{"+this.a+"}"};var y={};function z(a){var b=document.getElementsByTagName("head")[0];b||(b=document.body.parentNode.appendChild(document.createElement("head")));b.appendChild(a)}
+ function _loadJs(a){var b=document;var c="SCRIPT";"application/xhtml+xml"===b.contentType&&(c=c.toLowerCase());c=b.createElement(c);c.type="text/javascript";c.charset="UTF-8";if(void 0===w){b=null;var g=h.trustedTypes;if(g&&g.createPolicy){try{b=g.createPolicy("goog#html",{createHTML:q,createScript:q,createScriptURL:q})}catch(t){h.console&&h.console.error(t.message)}w=b}else w=b}a=(b=w)?b.createScriptURL(a):a;a=new x(a,y);a:{try{var f=c&&c.ownerDocument,k=f&&(f.defaultView||f.parentWindow);k=k||h;
+ if(k.Element&&k.Location){var e=k;break a}}catch(t){}e=null}if(e&&"undefined"!=typeof e.HTMLScriptElement&&(!c||!(c instanceof e.HTMLScriptElement)&&(c instanceof e.Location||c instanceof e.Element))){e=typeof c;if("object"==e&&null!=c||"function"==e)try{var d=c.constructor.displayName||c.constructor.name||Object.prototype.toString.call(c)}catch(t){d="<object could not be stringified>"}else d=void 0===c?"undefined":null===c?"null":typeof c;v("Argument is not a %s (or a non-Element, non-Location mock); got: %s",
+ "HTMLScriptElement",d)}a instanceof x&&a.constructor===x?d=a.a:(d=typeof a,v("expected object of type TrustedResourceUrl, got '"+a+"' of type "+("object"!=d?d:a?Array.isArray(a)?"array":d:"null")),d="type_error:TrustedResourceUrl");c.src=d;(d=c.ownerDocument&&c.ownerDocument.defaultView)&&d!=h?d=n(d.document):(null===m&&(m=n(h.document)),d=m);d&&c.setAttribute("nonce",d);z(c)}
+ function _loadCss(a){var b=document.createElement("link");b.type="text/css";b.rel="stylesheet";b.charset="UTF-8";b.href=a;z(b)}function _isNS(a){a=a.split(".");for(var b=window,c=0;c<a.length;++c)if(!(b=b[a[c]]))return!1;return!0}function _setupNS(a){a=a.split(".");for(var b=window,c=0;c<a.length;++c)b.hasOwnProperty?b.hasOwnProperty(a[c])?b=b[a[c]]:b=b[a[c]]={}:b=b[a[c]]||(b[a[c]]={});return b}
+ window.addEventListener&&"undefined"==typeof document.readyState&&window.addEventListener("DOMContentLoaded",function(){document.readyState="complete"},!1);
+ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google.translate._const');c._cest = gtConstEvalStartTime;gtConstEvalStartTime = undefined;c._cl='en';c._cuc='googleTranslateElementInit';c._cac='';c._cam='';c._ctkk='445901.3404215258';var h='translate.googleapis.com';var s=(true?'https':window.location.protocol=='https:'?'https':'http')+'://';var b=s+h;c._pah=h;c._pas=s;c._pbi=b+'/translate_static/img/te_bk.gif';c._pci=b+'/translate_static/img/te_ctrl3.gif';c._pli=b+'/translate_static/img/loading.gif';c._plla=h+'/translate_a/l';c._pmi=b+'/translate_static/img/mini_google.png';c._ps=b+'/translate_static/css/translateelement.css';c._puh='translate.google.com';_loadCss(c._ps);_loadJs(b+'/translate_static/js/element/main.js');})();})();
+   </script>
+ -->
+     <style>
+         .logindiv {
+             padding: 1em;
+             background: #903450!important;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+         
+         .logindiv input {
+             width: 60%
+         }
+         
+         .logindiv .form-group {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             width: 100%;
+         }
+         
+         @media screen and (max-width:600px) {
+             .logindiv {
+                 /* height: 100px; */
+                 padding: 1em;
+                 background: #903450!important;
+                 line-height: 100px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 flex-direction: column;
+             }
+             .logindiv .form-group {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 width: 100%;
+                 line-height: 1.5;
+             }
+         }
+     </style>
+ 
+     <script type="text/javascript" src="translate.txt"></script>
+     <script type="text/javascript">
+         function googleTranslateElementInit() {
+             new google.translate.TranslateElement({
+                     pageLanguage: 'it',
+                     includedLanguages: 'hi,mr',
+                     gaTrack: true,
+                     gaId: 'UA-XXXXXXXX-X'
+                 },
+                 'google_translate_element'
+             );
+         }
+     </script>
+ 
+ </head>
+ 
+ <body>
+   
+ 
+ 
+ 
+     <div id='showAfterSuccess'>
+         <div class="container">
+             <div id="accordion">
+ 
+ 
+ 
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex w-100 align-items-center mb-3">
+                            <div class='w-50 text-center'>
+                                अपनी भाषा चुनिए
+                            </div>
+                            <div class='w-50' id="google_translate_element"></div>
+                        </div>
+                        
+                        <a class="card-link" data-toggle="collapse" href="#collapseThree" aria-expanded="true">
+                            <i class="fa fa-hand-o-right inandOutAnimate" aria-hidden="true"></i>
+                            <b class="text-white">So Far, Fixed Issues</b>
+                        </a>
+                    </div>
+
+                    <div id="collapseThree" class="collapse show" data-parent="#accordion" style="">
+                        <div class="card-body bg-resish">
+                            <div id="exclusiveSpending" class="card card cardOuter cardOuter speciallyExcuslive">
+                                <div class="card-body wid9000">
+                                    <!-- <div class="row">
+                                <div class="col-md-3"> -->
+                                    <!-- <div class="card ">
+                                <div class="card-body "> -->
+                                    <div class="row">
+
+                                        <!-- next section starts here -->
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="py-3 text-center monthHeading mb-3">Fixed on Oct</h5>
+
+                                                    <div class="pb-2 text-center">
+                                                        <a class="exclusiveInfo" href="javascript:void(0)">
+                                                            <i class="fa fa-ban" aria-hidden="true"></i> No Exclusive Spent..</a>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Incharge: </p>
+                                                        <p> <i class="fa fa-home" aria-hidden="true"></i> 205 &amp; 200</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>When: </p>
+                                                        <p>8th Oct</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Where: </p>
+                                                        <p>Apt Lift</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> Collected: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> Not Collected</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Actual Spent: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> 6,000</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Remaining: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> 0</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Closed Flats (Oct): </p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> NA</p>
+                                                    </div>
+                                                    <img src="img/lift.jpg" class="img-fluid" width="250" height="150">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- next section starts here -->
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="py-3 text-center monthHeading mb-3">Fixed on July</h5>
+
+                                                    <div class="pb-2 text-center">
+                                                        <a class="exclusiveInfo" href="javascript:void(0)">
+                                                            <i class="fa fa-ban" aria-hidden="true"></i> No Exclusive Spent..</a>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Incharge: </p>
+                                                        <p> <i class="fa fa-home" aria-hidden="true"></i> 101 &amp; 105</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Where: </p>
+                                                        <p>2bhk Leakage</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> Collected: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> Not Collected</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Actual Spent: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> 0</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Remaining: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> 0</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Closed Flats (July): </p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> NA</p>
+                                                    </div>
+                                                    <img src="img/waterleakFix-july.jpg" class="img-fluid" width="250" height="150">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- next starts -->
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <h5 class="py-3 text-center monthHeading mb-3">Fixed on June</h5>
+                                                    <div class="pb-2 text-center">
+                                                        <a href="javascript:void(0)" class="exclusiveInfo pb-2">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> Yes Spent Exclusive..</a>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Incharge: </p>
+                                                        <p> <i class="fa fa-home" aria-hidden="true"></i> 101 &amp; 105</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Where: </p>
+                                                        <p>Terrace</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> Collected: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> 150/Each Flat</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Actual Spent: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> NA</p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Remaining: </p>
+                                                        <p><i class="fa fa-inr" aria-hidden="true"></i> NA</p>
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between">
+                                                        <p>Closed Flats (June): </p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p> 103, 202, 203, 402, 406, 501, 504</p>
+                                                    </div>
+                                                    <img src="img/bulb.jpg" class="img-fluid" width="250" height="150">
+                                                </div>
+                                            </div>
+                                            <!-- herer -->
+                                        </div>
+
+
+                                        <!-- herer -->
+                                    </div>
+                                </div>
+                                <!-- </div>
+                                </div> -->
+                                <!-- </div>
+                                </div> -->
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+ 
+ 
+               
+               
+               
+ 
+ 
+             </div>
+         </div>
+     </div>
+ 
+ 
+     </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+     <script src='script.js'></script>
+     <script>
+       
+ 
+         function checkCredentials(val) {
+             if (val == '123') {
+                 $('#showAfterSuccess').show()
+                 $('.logindiv').hide();
+             }
+         }
+     </script>
+ 
+ 
+ 
+ 
+ </body>
+ 
+ </html>
+ 
