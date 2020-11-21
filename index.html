@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -219,10 +219,11 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
                             <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Bank Account For Society</p>
                             <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Building Lobby (Owner) Name Board(Aprx. Rs 500/Sq.ft)</p>
 
-                            <h4 class='my-3'><i class="fa fa-bullhorn" aria-hidden="true"></i> Individual Contribution</h4>
+                            <!-- <h4 class='my-3'><i class="fa fa-bullhorn" aria-hidden="true"></i> Individual Contribution</h4>
                             <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> CCTV on Ground Floor - Mr. Hemant</p>
                             <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Focus/(FLOOD) Light on Ground Floor - Mr. Hemant</p>
                             <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Common Quick Fixes - Mr. Bhagwan</p>
+                       -->
                         </div>
                     </div>
 
@@ -2039,8 +2040,10 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 
         function checkCredentials(val) {
             if (val == '123') {
-                $('#showAfterSuccess').show()
-                $('.logindiv').hide();
+                // $('#showAfterSuccess').show()
+                // $('.logindiv').hide();
+                window.location.href = "./map.html";
+
             }
         }
     </script>
