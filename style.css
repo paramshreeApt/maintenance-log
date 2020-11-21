@@ -1,4 +1,4 @@
- .meetingdataholder {
+  .meetingdataholder {
     max-height: 600px;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -366,4 +366,32 @@ body {
     background: #ffbb21;
     text-align: center;
     padding: 3px 0px;
+}
+
+
+.mapIcon{
+    font-size:30px!important;
+}
+
+#map  h4 {
+    color: #903450;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    background: #903450;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 7px!important;
+}
+
+#map .card-body {
+    background: #ffbb2159;
+}
+
+#map .text-nowrap {
+    white-space: nowrap!important;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
