@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Maintenance Logs - Paramshree APT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="hSXx8JDJvv_-uUtDbNOI3l73DnCYGvzqjidm2d17ruQ" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        #map .card-header {
+    background: #903450;
+    text-align: center;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container" id='map'>
+        
+       
+
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex w-100 align-items-center mb-3">
+                    <div class='w-50 text-center'>
+                        अपनी भाषा चुनिए
+                    </div>
+                    <div class='w-50' id="google_translate_element"></div>
+                </div>
+
+                <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false">
+                    <i class="fa fa-hand-o-right inandOutAnimate" aria-hidden="true"></i>
+                    <b class="text-white">Vehicle List</b>
+
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse show"  data-parent="#accordion" style="">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <th><b>Room No</b></th>
+                                    <th><b>Vehicle Info</b></th>
+                                    <th><b>Contact No.</b></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 101</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 102</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 103</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 104</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 105</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 106</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+
+
+                                
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 201</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 202</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 203</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 204</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 205</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 206</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                 
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 301</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 302</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 303</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 304</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 305</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 306</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+
+                             
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 401</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 402</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 403</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td> 404</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td> 405</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 406</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+
+                                 
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 501</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 502</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 503</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 504</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 505</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-home" aria-hidden="true"></i> 506</td>
+                                        <td>
+
+                                            <p><i class="fa fa-motorcycle" aria-hidden="true"></i> Name : <i class="fa fa-motorcycle" aria-hidden="true"></i> Number</p>
+
+                                            <p><i class="fa fa-car" aria-hidden="true"></i> Name : <i class="fa fa-car" aria-hidden="true"></i> Number</p>
+                                        </td>
+                                        <td> xxxxxx</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src='script.js'></script>
+    <script>
+        $('#showAfterSuccess').hide()
+
+        function checkCredentials(val) {
+            if (val == '123') {
+                $('#showAfterSuccess').show()
+                $('.logindiv').hide();
+            }
+        }
+    </script>
+      <script type="text/javascript" src="translate.txt"></script>
+      <script type="text/javascript">
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement({
+                      pageLanguage: 'it',
+                      includedLanguages: 'hi,mr',
+                      gaTrack: true,
+                      gaId: 'UA-XXXXXXXX-X'
+                  },
+                  'google_translate_element'
+              );
+          }
+      </script>
+</body>
+</html>
